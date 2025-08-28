@@ -41,8 +41,8 @@ The project was adapted and inspired by the following resources:
 * (Optional) A capacitor for decoupling ~10uF
 * Set your SPI-MISO-MOSI-SCK 
 
-![image](https://github.com/faalkhah/Pi-Pico-FatFs-Spi-SD/tree/main/images/prototype.jpg "prototype")
-![image](https://github.com/faalkhah/Pi-Pico-FatFs-Spi-SD/tree/main/images/pi-pico-pinout.svg "pinout")
+![prototype](images/prototype.jpg)
+![pinout](images/pi-pico-pinout.svg)
 
 ## Features:
 * Support SD Cards V1 and V2
