@@ -1,3 +1,8 @@
+/* hw_config.h
+Set gpio pins
+2025 (C)Jalil Faalkhah
+*/
+
 #ifndef HW_CONFIG_H
 #define HW_CONFIG_H
 

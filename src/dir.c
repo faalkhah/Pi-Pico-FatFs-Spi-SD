@@ -1,3 +1,8 @@
+/* dir.c
+Directory of files
+2025 (C)Jalil Faalkhah
+*/
+
 #include "dir.h"
 
 void list_directory(const char *path) {

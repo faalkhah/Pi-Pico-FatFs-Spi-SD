@@ -1,3 +1,7 @@
+/* dir.h
+Directory of files
+2025 (C)Jalil Faalkhah
+*/
 #ifndef DIR_H
 #define DIR_H
 

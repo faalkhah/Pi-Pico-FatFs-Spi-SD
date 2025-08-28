@@ -1,3 +1,8 @@
+/* my_sdcard.h
+Main file to interface spi, mount and detect SD version 
+2025 (C)Jalil Faalkhah 
+*/
+
 #ifndef MY_SDCARD_H
 #define MY_SDCARD_H
 

@@ -1,3 +1,8 @@
+/* main.c
+main file 
+2025 (C)Jalil Faalkhah 
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include "pico/stdlib.h"

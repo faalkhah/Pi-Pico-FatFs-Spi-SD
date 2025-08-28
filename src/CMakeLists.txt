@@ -31,8 +31,8 @@ include_directories(
     ${CMAKE_SOURCE_DIR}/../FatFs_SPI/ff16/Source        #الویت دوم
 )
 
-# Add executable. Default name is the project name, version 0.1
-add_executable(my_sd_card 
+# Add executable. Default name is the project name, version 1.0.0
+add_executable(sd_card 
     main.c
     hw_config.c
     my_sdcard.c
@@ -43,21 +43,21 @@ add_executable(my_sd_card
 
 # Add the standard library and FatFS/SPI to the build
 target_link_libraries(
-    my_sd_card
+    sd_card
     pico_stdlib
     FatFs_SPI
     hardware_spi
 )
 
 
-pico_set_program_name(my_sd_card "my_sd_card")
-pico_set_program_version(my_sd_card "0.1")
+pico_set_program_name(sd_card "sd_card")
+pico_set_program_version(sd_card "1.0.0")
 
 # Choose source and destination for standard input and output:
 #   See 4.1. Serial input and output on Raspberry Pi Pico in Getting started with Raspberry Pi Pico (https://datasheets.raspberrypi.org/pico/getting-started-with-pico.pdf)
 #   and 2.7.1. Standard Input/Output (stdio) Support in Raspberry Pi Pico C/C++ SDK (https://datasheets.raspberrypi.org/pico/raspberry-pi-pico-c-sdk.pdf):
-pico_enable_stdio_uart(my_sd_card 1)
-pico_enable_stdio_usb(my_sd_card 1)
+pico_enable_stdio_uart(sd_card 1)
+pico_enable_stdio_usb(sd_card 1)
 
-pico_add_extra_outputs(my_sd_card)
+pico_add_extra_outputs(sd_card)
 

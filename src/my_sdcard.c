@@ -1,3 +1,8 @@
+/* my_sdcard.c
+Core of interface spi, mount and detect SD versions
+2025 (C)Jalil Faalkhah 
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include "my_sdcard.h"
