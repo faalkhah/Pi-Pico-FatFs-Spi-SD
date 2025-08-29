@@ -1,6 +1,6 @@
 # Pi-Pico-FatFs-Spi-SD
 
-# Raspberry Pi Pico SD Card Example (C SDK)
+## Raspberry Pi Pico SD Card Example (C SDK)
 
 This project is a simple example of interfacing an **SD card with Raspberry Pi Pico** using the **C SDK**.  
 It demonstrates how to initialize the SD card over SPI and perform basic file operations with the FatFS library.
@@ -51,6 +51,21 @@ The project was adapted and inspired by the following resources:
 * Support Unicode
 * Supports Real Time Clock for maintaining file and directory time stamps
 * Problem with 32GB Micro SD cards yet.
+
+## Capabilities:
+* Detect SD Cards and mount it as drive 0:
+* Directory of SD Card
+* Create and write a sample file with name hello_world.txt
+* Read the content of file
+
+## Debugging
+* Monitor with a terminal applications such as puTTY in Windows
+* Monitor with Screen command in Mac and linux such as
+```bash
+   screen /dev/tty.usbmodem14501 115200
+```
+* Failed to mount, the pi-pico led blinking fast
+* After mount, the pi-pico led on 1 sec for writting file
 
 ## 🙌 Acknowledgements:
 

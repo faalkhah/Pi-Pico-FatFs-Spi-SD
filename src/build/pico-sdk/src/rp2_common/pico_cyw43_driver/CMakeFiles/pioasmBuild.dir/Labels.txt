@@ -1,0 +1,13 @@
+# Target labels
+ pioasmBuild
+# Source files and their labels
+/Users/jalil/prj/Electronic/pico/examples/my_sd_card/my_sd_card_last/source/src/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild
+/Users/jalil/prj/Electronic/pico/examples/my_sd_card/my_sd_card_last/source/src/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.rule
+/Users/jalil/prj/Electronic/pico/examples/my_sd_card/my_sd_card_last/source/src/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild-complete.rule
+/Users/jalil/prj/Electronic/pico/examples/my_sd_card/my_sd_card_last/source/src/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-build.rule
+/Users/jalil/prj/Electronic/pico/examples/my_sd_card/my_sd_card_last/source/src/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure.rule
+/Users/jalil/prj/Electronic/pico/examples/my_sd_card/my_sd_card_last/source/src/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-download.rule
+/Users/jalil/prj/Electronic/pico/examples/my_sd_card/my_sd_card_last/source/src/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-install.rule
+/Users/jalil/prj/Electronic/pico/examples/my_sd_card/my_sd_card_last/source/src/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-mkdir.rule
+/Users/jalil/prj/Electronic/pico/examples/my_sd_card/my_sd_card_last/source/src/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch.rule
+/Users/jalil/prj/Electronic/pico/examples/my_sd_card/my_sd_card_last/source/src/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-update.rule

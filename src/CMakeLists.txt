@@ -34,6 +34,7 @@ include_directories(
 # Add executable. Default name is the project name, version 1.0.0
 add_executable(sd_card 
     main.c
+    debug_led_status.c
     hw_config.c
     my_sdcard.c
     my_diskio.c
@@ -51,7 +52,7 @@ target_link_libraries(
 
 
 pico_set_program_name(sd_card "sd_card")
-pico_set_program_version(sd_card "1.0.0")
+pico_set_program_version(sd_card "1.0.1")
 
 # Choose source and destination for standard input and output:
 #   See 4.1. Serial input and output on Raspberry Pi Pico in Getting started with Raspberry Pi Pico (https://datasheets.raspberrypi.org/pico/getting-started-with-pico.pdf)
